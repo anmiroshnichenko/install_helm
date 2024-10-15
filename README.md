@@ -1,6 +1,4 @@
-# Ansible Role: Helm
-
-[![CI](https://github.com/geerlingguy/ansible-role-helm/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-helm/actions?query=workflow%3ACI)
+# Ansible Role: Install Helm
 
 This role installs the [Helm](https://helm.sh) binary on any supported host.
 
@@ -12,7 +10,7 @@ N/A
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    helm_version: 'v3.2.1'
+    helm_version: 'v3.16.2'
     helm_platform: linux
     helm_arch: amd64
 
@@ -34,12 +32,12 @@ None.
 
     - hosts: all
       roles:
-        - role: geerlingguy.helm
+        - role: install_helm
 
 ## License
 
-MIT / BSD
+MIT 
 
 ## Author Information
 
-This role was created in 2020 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This role was created in 2024 by a system administrator at AVM Technology 
