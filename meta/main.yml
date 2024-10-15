@@ -1,0 +1,17 @@
+---
+dependencies: []
+galaxy_info:
+  author: Aleksandr Miroshnichenko
+  role_name: Install helm
+  description: Helm for Kubernetes.
+  company: AVM Technology
+  license: license (MIT)
+  min_ansible_version: 2.10
+  platforms:    
+    - name: Ubuntu
+      versions:
+        - all    
+    - name: Debian
+      versions:
+        - all
+  
